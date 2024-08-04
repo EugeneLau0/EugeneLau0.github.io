@@ -1,22 +1,26 @@
 # main links links
 main:
-  - title: "Publications"
+  - title: "博客"
+    url: /year-archive/
+# 发行物：专利等
+  - title: "专利"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
+# 演讲
+#  - title: "Talks"
+#    url: /talks/    
 
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Portfolio"
+# 教育
+#  - title: "Teaching"
+#    url: /teaching/    
+
+# 作品  
+  - title: "作品"
     url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
+
+# 个人简历    
+#  - title: "CV"
+#    url: /cv/
     
-  - title: "CV"
-    url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/
+#  - title: "Guide"
+#    url: /markdown/
