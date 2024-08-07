@@ -1,26 +1,18 @@
-# main links links
 main:
-  - title: "博客"
-    url: /year-archive/
-# 发行物：专利等
-  - title: "专利"
-    url: /publications/
+  - title: "时间"
+    url: /posts/
+  - title: "分类"
+    url: /categories/
+  - title: "标签"
+    url: /tags/
+  - title: "关于"
+    url: /about/
+  - title: "专栏"
+    url: /collections/
 
-# 演讲
-#  - title: "Talks"
-#    url: /talks/    
+sidebar:
+  - title     : "微信公众号"
+    image     : "/assets/images/avatar.png"
+    image_alt : "打铁匠"
+    text      : "打铁匠"
 
-# 教育
-#  - title: "Teaching"
-#    url: /teaching/    
-
-# 作品  
-  - title: "作品"
-    url: /portfolio/
-
-# 个人简历    
-#  - title: "CV"
-#    url: /cv/
-    
-#  - title: "Guide"
-#    url: /markdown/
