@@ -13,7 +13,15 @@ toc_icon: "cog"
 
 <!--more-->
 
-**微信公众号**
+## Java
+
+## AIGC
+
+- [The fastest image generation model tailored](https://replicate.com/black-forest-labs/flux-schnell)
+
+
+
+## 微信公众号
 
 - [Markdown - 让排版变 Nice](https://editor.mdnice.com/)
 - [微信 Markdown 编辑器 - Doocs 开源社区](https://doocs.github.io/md/)
