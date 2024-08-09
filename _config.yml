@@ -79,7 +79,7 @@ author:
       icon: "fas fa-fw fa-bookmark"
       url: "https://eugenelau0.github.io/bookmarks/"
     - label: "Twitter/X"
-      icon: "fa-brands fa-x-twitter"
+      icon: "fas fa-fw fa-x-twitter"
       url: "https://x.com/EugeneM33e"
 
 sidebar:
