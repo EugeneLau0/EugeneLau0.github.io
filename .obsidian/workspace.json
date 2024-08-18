@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_draft/使用coze打造个人智能体.md",
+                "file": "_posts/blog/2024/2024-08-18-使用coze打造个人智能体.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_draft/使用coze打造个人智能体.md",
+                "file": "_posts/blog/2024/2024-08-18-使用coze打造个人智能体.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_draft/使用coze打造个人智能体.md",
+                "file": "_posts/blog/2024/2024-08-18-使用coze打造个人智能体.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,11 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_draft/使用coze打造个人智能体.md"
+                "file": "_posts/blog/2024/2024-08-18-使用coze打造个人智能体.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -145,12 +146,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "67833d0d9a3d5573",
+  "active": "fbf1c20a2f82d62e",
   "lastOpenFiles": [
     "assets/images/attachments/20240818_bot_test_mobile.png",
     "assets/images/attachments/20240818_bot_deploy.png",
     "assets/images/attachments/20240818_bot_test.png",
-    "_draft/使用coze打造个人智能体.md",
+    "_posts/blog/2024/2024-08-18-使用coze打造个人智能体.md",
     "assets/images/attachments/20240818_link_knowledge.png",
     "assets/images/attachments/20240818_create_bot.png",
     "assets/images/attachments/20240818_create_knowleg.png",
