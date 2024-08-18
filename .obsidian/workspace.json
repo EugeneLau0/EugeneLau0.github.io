@@ -133,8 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,11 +147,17 @@
   },
   "active": "67833d0d9a3d5573",
   "lastOpenFiles": [
-    "_draft/性能经验总结.md",
+    "assets/images/attachments/20240818_bot_test_mobile.png",
+    "assets/images/attachments/20240818_bot_deploy.png",
+    "assets/images/attachments/20240818_bot_test.png",
     "_draft/使用coze打造个人智能体.md",
+    "assets/images/attachments/20240818_link_knowledge.png",
+    "assets/images/attachments/20240818_create_bot.png",
+    "assets/images/attachments/20240818_create_knowleg.png",
+    "_draft/性能经验总结.md",
     "assets/images/avatar.png",
     "assets/images/bio-photo.jpg",
-    "assets/images/未命名",
+    "assets/images/attachments",
     "_draft/readme.md"
   ]
 }
