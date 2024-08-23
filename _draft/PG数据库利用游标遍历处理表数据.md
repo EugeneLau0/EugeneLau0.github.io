@@ -1,3 +1,16 @@
+---
+title: 'Postgres数据库利用游标遍历update表数据'
+categories:
+  - Blog
+tags:
+  - Database
+  - Postgres
+---
+
+面对一些复杂的数据更新，普通的SQL难以解决问题；这个时候存储过程是一个好帮手。
+
+<!--more-->
+
 如下SQL所示，先将有问题的表id找出来，id跟entryid的关系是一对多，下面SQL解决的是同一个id下按照entryid进行seq从1到N的修改。
 
 ```sql
