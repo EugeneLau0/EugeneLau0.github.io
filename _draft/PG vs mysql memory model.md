@@ -1,3 +1,17 @@
+---
+title: 'Postgres VS MySql内存模型对比，其实它们不一样'
+categories:
+  - Blog
+tags:
+  - Database
+  - Postgres
+  - MySql
+---
+
+
+
+<!--more-->
+
 pg cache 和mysql cache有神马关系，其实它们两者并无直接关系。本文目的是想我之前对这两个关系的理解（OS：我很早之前认为它们是一样的）。
 
 **PG vs mysql memory model:**
