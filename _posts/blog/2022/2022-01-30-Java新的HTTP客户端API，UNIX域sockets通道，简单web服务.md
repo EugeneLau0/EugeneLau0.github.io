@@ -3,7 +3,7 @@ title: 'Java新的HTTP客户端API，UNIX域sockets通道，简单web服务'
 categories:
   - translate
 tags:
-  - java
+  - Java
 ---
 
 这是一篇在甲骨文官网上，两个架构师关于Java 18中网络新特性的一段对话，个人觉得挺有启发，故翻译出来。
