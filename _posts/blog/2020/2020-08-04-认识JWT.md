@@ -6,7 +6,7 @@ excerpt_separator: "<!--more-->"
 categories:
   - Blog
 tags:
-  - jwt
+  - JWT
 toc: true
 toc_label: "目录"
 toc_icon: "cog"
