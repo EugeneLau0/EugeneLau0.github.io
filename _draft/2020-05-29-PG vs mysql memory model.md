@@ -8,13 +8,15 @@ tags:
   - MySql
 ---
 
-
+PostgreSQL和MySQL是两种广泛使用的开源关系型数据库管理系统，它们在内存模型方面有一些关键的差异.
 
 <!--more-->
 
-pg cache 和mysql cache有神马关系，其实它们两者并无直接关系。本文目的是想我之前对这两个关系的理解（OS：我很早之前认为它们是一样的）。
+pg cache 和mysql cache有神马关系，其实它们两者并无直接关系。
 
-**PG vs mysql memory model:**
+本文目的是想澄清我之前对这两个关系的理解误差（OS：我很早之前认为它们是一样的）。
+
+## PG vs mysql memory model
 
 ![内存模型对比](https://i-blog.csdnimg.cn/blog_migrate/9d690e4702f2529c41049ba4924adcb2.png)
 
