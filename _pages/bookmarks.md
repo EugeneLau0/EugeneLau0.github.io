@@ -1,12 +1,8 @@
 ---
 permalink: /bookmarks/
 title: "打铁匠的个人书签"
-excerpt_separator: "<!--more-->"
 tags:
   - bookmark
-toc: true
-toc_label: "目录"
-toc_icon: "cog"
 ---
 
 打铁匠的个人书签
@@ -18,7 +14,7 @@ toc_icon: "cog"
 ## AIGC
 
 - [The fastest image generation model tailored](https://replicate.com/black-forest-labs/flux-schnell)
-
+- [根据文案自动生成图片](https://app.napkin.ai/)
 
 
 ## 微信公众号
