@@ -6,4 +6,5 @@ Gemfile.lock
 # mac
 .DS_Store
 
-.obsidian
+.obsidian/
+.trash/
