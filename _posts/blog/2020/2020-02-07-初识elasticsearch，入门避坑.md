@@ -1,3 +1,15 @@
+---
+title: '初识elasticsearch，入门避坑'
+categories:
+  - Blog
+tags: 
+  - ES
+---
+
+ES的作用不言而喻，这里简单介绍下如何在Linux系统中安装ES服务，以及在实践过程中所遇到的问题及解决方法。
+
+<!--more-->
+
 ## 安装及启动
 
  - 这里有简单易懂的教程，就不在这里赘诉了，奉上链接。[Elasticsearch 入门：安装及启动Elasticsearch](https://www.jianshu.com/p/cf4d8f60cef8)
