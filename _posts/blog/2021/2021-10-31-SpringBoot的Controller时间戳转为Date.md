@@ -1,5 +1,13 @@
+---
+title: 'SpringBoot的Controller时间戳转为Date'
+categories:
+  - Blog
+tags:
+  - SpringBoot
+  - Java
+---
 
-从源码理解在SpringBoot中的入参date的转换
+从源码层理解，在SpringBoot中的入参Date类型的转换原理。
 
 <!--more-->
 
