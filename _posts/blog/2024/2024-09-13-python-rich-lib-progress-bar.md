@@ -9,9 +9,11 @@ tags:
 
 <!--more-->
 
+在许多耗时的场景中，为了解决用户等待的体验，我们常常会加上进度条，以使得使用者知道程序还在执行中。
+
 # 自定义进度条
 
-对此感兴趣的，可以阅读[官方文档](https://rich.readthedocs.io/en/stable/progress.html)就可以非常快速的做出一个自定义的进度条了。
+著名的rich库中就有可自定义的进度条，对此感兴趣的，可以阅读[官方文档](https://rich.readthedocs.io/en/stable/progress.html)就可以非常快速的做出一个自定义的进度条。
 
 代码img：
 
