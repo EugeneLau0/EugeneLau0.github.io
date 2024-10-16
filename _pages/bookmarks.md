@@ -23,6 +23,8 @@ tags:
 ## 微信公众号
 
 - [微信 Markdown 编辑器 - Doocs 开源社区](https://doocs.github.io/md/)
+- [微信 Markdown 编辑器 - Markdown Nice](https://md.bytenote.net/)
+- [微信 Markdown 编辑器 - 可能吧](https://knb.im/mp/)
 - [秀米XIUMI - 微信排版编辑器，公众号图文排版工具](https://xiumi.us/)
 
 
