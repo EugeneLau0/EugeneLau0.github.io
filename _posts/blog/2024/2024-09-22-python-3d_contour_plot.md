@@ -6,15 +6,16 @@ tags:
   - Python
 ---
 
-使用python绘制3D等高线，带代码的详细注释。
+在本篇文章中，我们将快速地使用Python绘制精美的3D等高线图。通过详细的代码示例和注释，您将能够轻松理解每个步骤的实现过程。我们将使用NumPy库进行数值计算，并利用Matplotlib库进行数据可视化。
+
 
 <!--more-->
 
-# 效果
+# 效果图
 
 ![](../../../assets/images/attachments/20240922_3d_contour_plot.png)
 
-# 代码
+# 代码示例
 
 ```python
 import numpy as np  # 导入NumPy库，用于数值计算
@@ -61,3 +62,13 @@ plt.subplots_adjust(right=0.85)
 # 显示绘制的图形
 plt.show()
 ```
+
+注意：
+
+1、`fig.colorbar(contour, ax=ax, label='Z values', pad=0.1)`这一行代码用于为等高线图添加颜色条，表示Z值的范围。`label`参数用于设置颜色条的标签，`pad`参数用于设置颜色条与图形的距离。
+
+2、`plt.subplots_adjust(right=0.85)`这一行代码用于调整子图的位置，使其向左移动。`right`参数用于设置子图与右侧边界的距离。
+
+
+
+通过以上代码示例，您可以轻松地绘制出精美的3D等高线图。
