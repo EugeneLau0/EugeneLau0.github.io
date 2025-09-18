@@ -27,9 +27,10 @@ tags:
 - [微信 Markdown 编辑器 - 可能吧](https://knb.im/mp/)
 - [秀米XIUMI - 微信排版编辑器，公众号图文排版工具](https://xiumi.us/)
 
+## 杂志
 
+- [阮一峰的网络日志](https://www.ruanyifeng.com/blog/)
 
 ## 其他
 
-- [阮一峰的网络日志](https://www.ruanyifeng.com/blog/)
 - [果核剥壳 - 还原软件的本质](https://www.ghxi.com/)
