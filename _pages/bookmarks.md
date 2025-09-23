@@ -18,6 +18,7 @@ tags:
 
 - [The fastest image generation model tailored](https://replicate.com/black-forest-labs/flux-schnell)
 - [根据文案自动生成图片](https://app.napkin.ai/)
+- [AI工具集](https://longalong.feishu.cn/wiki/wikcnAawG8etdr1pp1ni6m0AqHf?table=tbl6NPFAt7jfYbdW&view=vewlZDDgeA)
 
 <!--
 ## 微信公众号
