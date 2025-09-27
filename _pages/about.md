@@ -33,7 +33,7 @@ ref:https://zhuanlan.zhihu.com/p/454597068
 
 <div>
 
-### 🤺 About Me
+## 🤺 About Me
 
 <img align="right" width="88" src="https://imagepphcloud.thepaper.cn/pph/image/78/565/505.jpg" />
 
@@ -47,7 +47,7 @@ ref:https://zhuanlan.zhihu.com/p/454597068
 <div>
 
 
-### 🏢 Work Experience
+## 🏢 Work Experience
 
 <img align="right" width="88" src="https://www.kingdee.com/r/cms/www/default/v0.1/images/new-index/logo.png" />
 
@@ -55,6 +55,7 @@ ref:https://zhuanlan.zhihu.com/p/454597068
 
   - 工作岗位：Java 高级软件工程师
   - 工作内容：参与金蝶云星辰产品从0到1的开发过程
+
 </div>
 </div>
 
