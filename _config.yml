@@ -61,7 +61,7 @@ plugins:
   - jekyll-spaceship
 
 author:
-  name   : "EugeneLau0"
+  name   : "EUGENE"
   avatar : "/assets/images/avatar.png"
   bio    : "认清生活真相之后依然热爱它"
   location : "shenzhen China"
@@ -79,7 +79,7 @@ author:
       icon: "fas fa-fw fa-bookmark"
       url: "https://eugenelau0.github.io/bookmarks/"
     - label: "Twitter/X"
-      icon: "fas fa-fw fa-twitter"
+      icon: "fab fa-fw fa-twitter-square"
       url: "https://x.com/EugeneM33e"
 
 sidebar:
