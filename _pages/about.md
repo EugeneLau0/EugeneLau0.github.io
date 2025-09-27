@@ -29,11 +29,11 @@ title: "About"
 
 <!-- <img align="right" width="88" src="https://www.kingdee.com/r/cms/www/default/v0.1/images/new-index/logo.png" /> -->
 
-- [金蝶软件（中国）有限公司](https://www.kingdee.com/) &emsp; 📌 2018-07 —— 2025-08
+[金蝶软件（中国）有限公司](https://www.kingdee.com/) &emsp; 📌 2018-07 —— 2025-08
 
-  - 工作岗位：Java 高级软件工程师
-  - 工作内容：参与金蝶云星辰产品从0到1的开发过程
-  - 多项创新成果、专利
+1. 工作岗位：Java 高级软件工程师
+2. 工作内容：参与金蝶云星辰产品从0到1的开发过程
+3. 多项创新成果、专利
 
 </div>
 
