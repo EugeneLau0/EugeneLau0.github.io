@@ -17,7 +17,7 @@ tags:
 
 代码img：
 
-![](../assets/images/attachments/20240913-image-of-rich-progress-code.png)
+![](../../../assets/images/attachments/20240913-image-of-rich-progress-code.png)
 
 完整的代码
 
@@ -47,7 +47,7 @@ with Progress() as progress:
 
 实现的效果
 
-![](../assets/images/attachments/20240913-image-of-rich-progress-result.png)
+![](../../../assets/images/attachments/20240913-image-of-rich-progress-result.png)
 
 # 探索更多
 
