@@ -3,28 +3,9 @@ permalink: /about/
 title: "About"
 ---
 
-
-<!--
-**EugeneLau0/EugeneLau0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-
-ref:https://zhuanlan.zhihu.com/p/454597068
--->
 <div align="center">
-<!-- dynamic typing effect 动态打字效果 -->
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=500&lines=EUGENE coding!&center=true&size=26" />
-
+  <!-- dynamic typing effect 动态打字效果 -->
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=500&lines=love coding&center=true&size=26" />
 </div>
 
 #  🙋 Hello
@@ -33,9 +14,7 @@ ref:https://zhuanlan.zhihu.com/p/454597068
 
 <div>
 
-## 🤺 About Me
-
-<img align="right" width="88" src="https://imagepphcloud.thepaper.cn/pph/image/78/565/505.jpg" />
+# 🤺 About Me
 
 <p>&emsp;&emsp;嗨，你好，我是打铁匠老哥。热爱编程、摄影、旅行，文学消费者。</p>
 <p>&emsp;&emsp;热爱计算机科学和 IT 互联网事业，立志能成为一名优秀的开发者。</p>
@@ -47,16 +26,16 @@ ref:https://zhuanlan.zhihu.com/p/454597068
 <div>
 
 
-## 🏢 Work Experience
+# 🏢 Work Experience
 
 <img align="right" width="88" src="https://www.kingdee.com/r/cms/www/default/v0.1/images/new-index/logo.png" />
 
-- [金蝶软件（中国）有限公司](https://www.kingdee.com/) &emsp; 📌 2018-07 —— 2024-08
+- [金蝶软件（中国）有限公司](https://www.kingdee.com/) &emsp; 📌 2018-07 —— 2025-08
 
   - 工作岗位：Java 高级软件工程师
   - 工作内容：参与金蝶云星辰产品从0到1的开发过程
+  - 多项创新成果、专利
 
-</div>
 </div>
 
 
@@ -70,15 +49,11 @@ ref:https://zhuanlan.zhihu.com/p/454597068
 </div>
 
 <!-- GitHub Activity Graph GitHub 活动图 -->
-<table>
-  <tr>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=EugeneLau0&theme=xcode&bg_color=FF000000&hide_border=true" />
-        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=EugeneLau0&theme=xcode&bg_color=FF000000&color=000000&hide_border=true" />
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=EugeneLau0&theme=xcode&bg_color=FF000000&hide_border=true" />
-      </picture>
-  </tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=EugeneLau0&theme=xcode&bg_color=FF000000&hide_border=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=EugeneLau0&theme=xcode&bg_color=FF000000&color=000000&hide_border=true" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=EugeneLau0&theme=xcode&bg_color=FF000000&hide_border=true" />
+</picture>
+
 
 </div>
