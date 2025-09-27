@@ -8,13 +8,12 @@ title: "About"
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=500&lines=love coding&center=true&size=26" />
 </div>
 
-#  🙋 Hello
+#  🙋 welcome here
 
 <div align="left">
-
 <div>
 
-# 🤺 About Me
+🤺 About Me
 
 <p>&emsp;&emsp;嗨，你好，我是打铁匠老哥。热爱编程、摄影、旅行，文学消费者。</p>
 <p>&emsp;&emsp;热爱计算机科学和 IT 互联网事业，立志能成为一名优秀的开发者。</p>
@@ -26,9 +25,9 @@ title: "About"
 <div>
 
 
-# 🏢 Work Experience
+🏢 Work Experience
 
-<img align="right" width="88" src="https://www.kingdee.com/r/cms/www/default/v0.1/images/new-index/logo.png" />
+<!-- <img align="right" width="88" src="https://www.kingdee.com/r/cms/www/default/v0.1/images/new-index/logo.png" /> -->
 
 - [金蝶软件（中国）有限公司](https://www.kingdee.com/) &emsp; 📌 2018-07 —— 2025-08
 
