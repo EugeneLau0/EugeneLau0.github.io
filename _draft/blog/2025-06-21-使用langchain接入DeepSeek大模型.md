@@ -9,6 +9,7 @@ tags:
   - OpenAI
   - LangChain
   - LLM
+  - Jupyter Notebook
 ---
 
 LangChain的默认模型是OpenAI，本篇将介绍如何使用LangChain支持DeepSeek的deepseek-chat模型。
@@ -91,3 +92,11 @@ class DeepSeekLLM(BaseLLM):
 ```python
 from ai.DeepSeekLLM import DeepSeekLLM
 ```
+
+## 直接调用
+
+## function calling 模式
+
+## Jupyter Notebook 调试
+
+
