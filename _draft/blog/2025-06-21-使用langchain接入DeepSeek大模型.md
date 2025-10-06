@@ -129,7 +129,9 @@ print('开场白：' + response.choices[0].message.content)
 模型列表：[Model(id='deepseek-chat', created=None, object='model', owned_by='deepseek'), Model(id='deepseek-reasoner', created=None, object='model', owned_by='deepseek')]
 ```
 
-程序返回的开场白为：
+通过Model的id可以看到有2个可以使用的模型，deepseek-chat和deepseek-reasoner，即对话模型和推理模型。
+
+返回的开场白为：
 
 ```sh
 开场白：Hello! I'm an AI assistant here to help you with questions, information, or just to chat. How can I assist you today? 😊
@@ -139,6 +141,68 @@ print('开场白：' + response.choices[0].message.content)
 
 ## function calling 模式
 
-## Jupyter Notebook 调试
+函数调用（Function Calling） 是一种让大语言模型（LLM）能够与外部工具交互的关键技术。通过这种方式，LLM可以扩展其能力，例如获取实时数据或执行特定任务。函数调用的核心在于，LLM根据用户输入，判断是否需要调用某个函数，并以结构化的方式输出调用信息。
 
+代码示例：
+
+```python
+from openai import OpenAI
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+client = OpenAI(api_key=os.getenv("deepseek_api_key"), base_url="https://api.deepseek.com")
+
+def send_messages(messages):
+    response = client.chat.completions.create(
+        model="deepseek-chat",
+        messages=messages,
+        tools=tools
+    )
+    return response.choices[0].message
+
+
+tools = [
+    {
+        "type": "function",
+        "function": {
+            "name": "get_weather",
+            "description": "Get weather of an location, the user shoud supply a location first",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "location": {
+                        "type": "string",
+                        "description": "The city and state, e.g. San Francisco, CA",
+                    }
+                },
+                "required": ["location"]
+            },
+        }
+    },
+]
+
+messages = [{"role": "user", "content": "How's the weather in Hangzhou?"}]
+message = send_messages(messages)
+print(f"User>\t {messages[0]['content']}")
+
+tool = message.tool_calls[0]
+messages.append(message)
+
+messages.append({"role": "tool", "tool_call_id": tool.id, "content": "25℃"})
+message = send_messages(messages)
+print(f"Model>\t {message.content}")
+```
+
+上面的代码中，定义了一个获取天气的函数（get_weather），通过description字段描述大模型应该如何响应，并且增加了parameters指定返回的数据格式。
+
+跑起来看看：
+
+```sh
+User>	 How's the weather in Hangzhou?
+Model>	 The current weather in Hangzhou is 25°C (77°F). It's a pleasant temperature - not too hot and not too cold.
+```
+
+通过function calling模式，可以从大模型中得到更加精准的结果，避免那些长篇大论。
 
