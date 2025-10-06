@@ -95,6 +95,48 @@ from ai.DeepSeekLLM import DeepSeekLLM
 
 ## 直接调用
 
+执行以下代码，将通过API直接访问DeepSeek的chat模型。
+
+```python
+from openai import OpenAI
+# 从env文件中加载api_key
+from dotenv import load_dotenv
+import os
+load_dotenv()
+# print(os.getenv("deepseek_api_key"))
+client = OpenAI(
+    api_key=os.getenv("deepseek_api_key"),
+    base_url="https://api.deepseek.com"
+)
+
+response = client.chat.completions.create(
+    model="deepseek-chat",
+    messages=[
+        {"role": "system", "content": "who are you "},
+        {"role": "user", "content": "Hello"},
+    ],
+    stream=False
+)
+
+print('模型列表：' + str(client.models.list().data))
+
+print('开场白：' + response.choices[0].message.content)
+```
+
+通过调试，得到模型列表为：
+
+```sh
+模型列表：[Model(id='deepseek-chat', created=None, object='model', owned_by='deepseek'), Model(id='deepseek-reasoner', created=None, object='model', owned_by='deepseek')]
+```
+
+程序返回的开场白为：
+
+```sh
+开场白：Hello! I'm an AI assistant here to help you with questions, information, or just to chat. How can I assist you today? 😊
+```
+
+可以看到，已经可以正常的访问DeepSeek大模型啦。接下来将进一步尝试其他的调用方式。
+
 ## function calling 模式
 
 ## Jupyter Notebook 调试
