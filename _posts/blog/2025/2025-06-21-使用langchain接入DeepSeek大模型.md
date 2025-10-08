@@ -16,11 +16,11 @@ LangChain的默认模型是OpenAI，本篇将介绍如何使用LangChain支持De
 
 ## LangChain
 
-LangChain这个框架是用来开发大模型的应用程序，可以简化LLM应用程序的构建。
+关于LangChain，LangChain这个框架是用来开发大模型的应用程序，可以简化LLM应用程序的构建。
 
-中文介绍可以参考这个网站，https://python.langchain.ac.cn/docs/introduction/ ，
+中文介绍可以逛一逛这个网站，[https://python.langchain.ac.cn/docs/introduction/](https://python.langchain.ac.cn/docs/introduction/)，
 
-其对应的官方网站尾，https://python.langchain.com/docs/introduction/ 。
+LangChain的英文官方网站，[https://python.langchain.com/docs/introduction/](https://python.langchain.com/docs/introduction/)。
 
 LangChain的架构图：
 
@@ -87,10 +87,10 @@ class DeepSeekLLM(BaseLLM):
         return "deepseek"
 ```
 
-后续在需要使用的地方，进行`import`即可。
+在定义好LLM后，后续在需要使用的地方，进行`import`即可。
 
 ```python
-from ai.DeepSeekLLM import DeepSeekLLM
+from 相对包路径.DeepSeekLLM import DeepSeekLLM
 ```
 
 ## 直接调用
@@ -129,7 +129,7 @@ print('开场白：' + response.choices[0].message.content)
 模型列表：[Model(id='deepseek-chat', created=None, object='model', owned_by='deepseek'), Model(id='deepseek-reasoner', created=None, object='model', owned_by='deepseek')]
 ```
 
-通过Model的id可以看到有2个可以使用的模型，deepseek-chat和deepseek-reasoner，即对话模型和推理模型。
+通过Model的id可以看到有2个可以使用的模型，分别是deepseek-chat和deepseek-reasoner，即对话模型和推理模型。
 
 返回的开场白为：
 
@@ -206,3 +206,6 @@ Model>	 The current weather in Hangzhou is 25°C (77°F). It's a pleasant temper
 
 通过function calling模式，可以从大模型中得到更加精准的结果，避免那些长篇大论。
 
+## 总结
+
+在使用LangChain框架后，可以非常便利的让我们接入大模型。
