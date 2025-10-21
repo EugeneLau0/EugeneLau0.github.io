@@ -27,13 +27,17 @@ title: "About"
 
 🏢 Work Experience
 
+<br/>
+
 <!-- <img align="right" width="88" src="https://www.kingdee.com/r/cms/www/default/v0.1/images/new-index/logo.png" /> -->
 
-[金蝶软件（中国）有限公司](https://www.kingdee.com/) &emsp; 📌 2018-07 —— 2025-08
+<a href="https://www.kingdee.com/">金蝶软件（中国）有限公司</a> &emsp; 📌 2018-07 —— 2025-08
 
-1. 工作岗位：Java 高级软件工程师
-2. 工作内容：参与金蝶云星辰产品从0到1的开发过程
-3. 多项创新成果、专利
+<ol>
+  <li>工作岗位：Java 高级软件工程师</li>
+  <li>工作内容：参与金蝶云星辰产品从0到1的开发过程</li>
+  <li>在库存管理领域积累多项创新成果、专利</li>
+</ol>
 
 </div>
 
@@ -43,7 +47,7 @@ title: "About"
 <!-- GitHub 数据统计 -->
 <img height="137px" style="pointer-events: none" src="https://github-readme-stats.vercel.app/api?username=EugeneLau0&hide_title=true&hide_border=true&show_icons=trueline_height=21&text_color=000&icon_color=000&bg_color=0,ea6161,ffc64d,fffc4d,52fa5a&theme=graywhite" />
 
-<img height="137px" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=EugeneLau0&hide_title=true&hide_border=true&layout=compact&langs_count=5&text_color=000&icon_color=fff&bg_color=0,52fa5a,4dfcff,c64dff&theme=graywhite" />
+<!-- <img height="137px" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=EugeneLau0&hide_title=true&hide_border=true&layout=compact&langs_count=5&text_color=000&icon_color=fff&bg_color=0,52fa5a,4dfcff,c64dff&theme=graywhite" /> -->
 
 </div>
 
